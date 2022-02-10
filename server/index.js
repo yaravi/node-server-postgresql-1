@@ -54,6 +54,7 @@ app.get('/gastos', (req, res) => {
   });
 });
 
+
 app.post('/gasto', (req, res) => {
   // Crear gasto en base de datos
   res.send('Se creo un gasto');
@@ -62,3 +63,10 @@ app.post('/gasto', (req, res) => {
 app.listen(3000, () => {
   console.log('El server acaba de inicial en el puerto 3000');
 }); 
+
+
+// CRUD 
+// Create
+// Read 
+// Delete 
+// Update 
