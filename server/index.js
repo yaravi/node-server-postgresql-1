@@ -5,6 +5,8 @@ const app = express();
 console.log(__dirname);
 console.log(__filename);
 
+app.set('view engine', 'hbs');
+
 const rutaDePublic = path.join(__dirname, '../public');
 console.log(rutaDePublic);
 app.use(express.static(rutaDePublic));
@@ -17,6 +19,13 @@ app.use((req, res, next) => {
 
 app.get('', (req, res) => {
   res.send('Estamos en la ruta raiz!');
+});
+
+app.get('/about', (req, res) => {
+  res.render('about', {
+    nombre: 'Misael',
+    apellido: 'Calvillo Mancilla'
+  })
 });
 
 app.listen(3000, () => {
