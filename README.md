@@ -8,3 +8,4 @@
 * @belemzzuka
 * @Luiroja - Rogerio Juárez
 * @juliana176
+* @jerry-gzh
