@@ -1,4 +1,6 @@
 
 # Este proyecto es mantenido por: 
+## Vamos a crear una app muy cool
 * @MisaelCalvillo
-@yaravi
+* @YannYiss - Adrian Nieto
+* @yaravi
